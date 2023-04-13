@@ -1,0 +1,57 @@
+:root{
+    --background: #684BB1;
+    --branco: #ffffff;
+}
+
+body{
+    background: var(--background);
+    overflow-x: hidden;
+}
+
+.forma-esquerda{
+    position: absolute;
+    top: 0;
+    left: 2.5em;
+}
+
+.primeira-forma{
+    position: absolute;
+    top: 5em;
+    left: 8em;
+}
+
+.segunda-forma{
+    position: absolute;
+    top: 12.7em;
+    left: 21em;
+}
+
+.terceira-forma{
+    position: absolute;
+    top: 17em;
+    left: 3.2em;
+}
+
+.quarta-forma{
+    position: absolute;
+    left: 10em;
+}
+
+.quinta-forma{
+    position: absolute;
+    top: 45%;
+    left: 7.6em;
+}
+
+.sexta-forma{
+    position: absolute;
+    left: 20.8em;
+    top: 21.8em
+}
+
+.main-form{
+    position: relative;
+    top: -14em;
+    display: flex;
+    margin: auto;
+}
