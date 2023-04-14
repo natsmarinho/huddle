@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 :root{
     --background: #684BB1;
     --branco: #ffffff;
@@ -6,6 +8,7 @@
 body{
     background: var(--background);
     overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
 }
 
 .forma-esquerda{
@@ -39,7 +42,7 @@ body{
 
 .quinta-forma{
     position: absolute;
-    top: 45%;
+    top: 43%;
     left: 7.6em;
 }
 
@@ -54,4 +57,33 @@ body{
     top: -14em;
     display: flex;
     margin: auto;
+}
+
+.container{
+    text-align: center;
+    position: relative;
+    top: -10em;
+}
+
+.titulo__container{
+    font-weight: 600;
+    color: var(--branco);
+    padding-bottom: 1em;
+    font-size: 1.5em;
+    padding-inline: 3em;
+}
+
+.texto__container{
+    color: var(--branco);
+    padding-bottom: 2em;
+    padding-inline: 2.2em;
+    font-size: 1.2em;
+}
+
+.btn__container{
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.269022);
+    border-radius: 20px;
+    color: var(--background);
+    border: none;
+    padding: 1em 6em;
 }
