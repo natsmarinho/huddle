@@ -87,3 +87,10 @@ body{
     border: none;
     padding: 1em 6em;
 }
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -7em;
+}
