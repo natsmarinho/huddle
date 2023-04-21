@@ -3,12 +3,15 @@
 :root{
     --background: #684BB1;
     --branco: #ffffff;
+    --rosa-claro: #E880E8;
+    --rosa:  #FF52C1;
 }
 
 body{
     background: var(--background);
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
+    overflow-y: hidden;
 }
 
 .forma-esquerda{
@@ -93,6 +96,7 @@ body{
     justify-content: center;
     position: relative;
     top: -7em;
+    gap: 1em;
 }
 
 /*-----------------------------------------------------TABLET---------------------------------------------------------------*/
@@ -129,5 +133,97 @@ body{
 
     .rodape{
         top: -2em;
+    }
+}
+
+@media screen and (min-width: 1220px){
+    .logo{
+        position: relative;
+        top: 1em;
+        left: 1em;
+    }
+
+    .forma-esquerda{
+        transform: rotate(60deg);
+        left: -4em;
+        top: 20em;
+        width: 800px;
+    }
+
+    .forma-direita{
+        transform: rotate(105deg);
+        position: relative;
+        top: -10em;
+        width: 800px;
+        left: -5em;
+    }
+
+    .terceira-forma{
+       left: 70em;
+    }
+
+    .sexta-forma{
+        left: 80em;
+        top: 30em
+    }
+
+    .segunda-forma{
+        top: 5em;
+        left: 35em;
+    }
+
+    .primeira-forma{
+        left: 60em;
+    }
+
+    .main-form{
+        position: relative;
+        left: -22vw;
+        top: -35em;
+        width: 700px;
+    }
+
+    .forma-x{
+        position: relative;
+        left: 2em;
+    }
+
+    .container{
+        position: absolute;
+        top: 10em;
+        padding-left: 45em;
+        padding-right: 5em;
+        text-align: start;
+    }
+
+    .texto__container{
+        position: relative;
+        left: 2.6em;
+    }
+
+    .btn__container{
+        position: relative;
+        left: 6em;
+        box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.258633);
+        border-radius: 35px;
+        padding: 1em 4em;
+    }
+
+    .btn__container:hover{
+        background: var(--rosa-claro);
+        color: var(--branco);
+    }
+
+    .rodape{
+        top: -35em;
+        left: 30em;
+    }
+
+    .rodape img{
+        width: 40px;
+    }
+
+    .rodape img:hover{
+        background: var(--rosa);
     }
 }
