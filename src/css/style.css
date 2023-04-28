@@ -222,4 +222,10 @@ body{
     .rodape img{
         width: 40px;
     }
+
+    .rodape img:hover{
+        background: var(--rosa);
+        border-radius: 22px;
+    }
+
 }
