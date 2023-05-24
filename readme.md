@@ -29,6 +29,3 @@ Users should be able to:
 - Instagram - [@natsmarinho](https://www.instagram.com/natsmarinho/)
 - Linkedin - [natsmarinho](https://www.linkedin.com/in/natsmarinho/)
 
-## Acknowledgments
-
-Nícolas Gabriel helped me with this project, I am greatful for being his friend and recieve his knowledges. 
