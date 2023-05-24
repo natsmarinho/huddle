@@ -228,4 +228,8 @@ body{
         border-radius: 22px;
     }
 
+    path:hover {
+         fill: var(--rosa);
+    }
+
 }
